@@ -3,10 +3,10 @@ const aks = require('aotoo-koa-server')
 
 const _mapper = {
   js: {
-    demo: '/js/demo.js'
+    demo: 'demo.js'
   },
   css: {
-    demo: '/css/demo.css'
+    demo: 'demo.css'
   }
 }
 
