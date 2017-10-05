@@ -1,4 +1,5 @@
 const path = require('path')
+const logger = require('koa-logger')
 const aks = require('aotoo-koa-server')
 
 const _mapper = {
@@ -17,6 +18,8 @@ const app = aks({
   pluginsFolder: path.join(__dirname, './plugins'),
   mapper: _mapper
 })
+
+app.use(logger())
 
 app.statics(path.join(__dirname, '../dist/js'), {
   prefix: '/js'
