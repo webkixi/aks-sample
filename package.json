@@ -1,0 +1,12 @@
+{
+  "name": "aks-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "aotoo-koa-server demo",
+  "repository": "https://github.com/webkixi/aks-sample.git",
+  "author": "webkixi",
+  "dependencies": {
+    "aotoo-koa-server": "^1.6.0"
+  }
+}
